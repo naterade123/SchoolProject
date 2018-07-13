@@ -1,0 +1,227 @@
+.logo {
+  font-family: 'Berkshire Swash', cursive;
+  color:white;
+  padding-left:5px;
+}
+.logo1 {
+  font-family: 'Berkshire Swash', cursive;
+  color:black;
+  font-size:150%;
+}
+audio {
+  display:none;
+}
+.forsalepics{
+  text-align:center;
+
+}
+.forsalepics img{
+  height:50%;
+  width:50%;
+}
+.footer{
+  text-align:center;
+  background-color:lightgrey;
+}
+header {
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background:white;
+}
+
+.ad img{
+  height:200px;
+  width:100%;
+}
+.ad {
+  transition: all .2s ease-in-out;
+}
+.ad:hover {
+  transform: scale(1.1);
+}
+.shake:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color:white;
+}
+.overflow{
+  overflow-y: auto;
+  text-align:center;
+}
+.historytitle{
+  font-size:40px;
+}
+#tile20{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+
+#tile21{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+#tile22{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+#tile23{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+#tile24{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+#tile25{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+#tile26{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+#tile27{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+#tile28{
+  width:100%;
+  height:120px;
+  background:grey;
+  background: url("snowflake.gif");
+}
+
+#tile1{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+#tile2{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+#tile3{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+#tile4{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+#tile5{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+#tile6{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+#tile7{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+#tile8{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+#tile9{
+  text-align:center;
+  vertical-align:middle;
+  line-height:120px;
+}
+
+div.scrolltext
+{
+  color:black;
+  font-size:medium;
+  white-space:nowrap;
+  margin-left:0px;
+ 
+}
+div.scrollbox
+{
+  width: 100%;
+  overflow:hidden;
+  /*border:1px solid darkblue;*/
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
